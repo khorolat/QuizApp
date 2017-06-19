@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buildguide.quizapp.fourthActivity"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/tx8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technology"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <TextView
+        android:id="@+id/tx9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_weight="0"
+        android:text="3.Which one is not an anti-virus product?"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fc"
+            android:layout_above="@+id/butmicro"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/butmicro"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MicroTend Endpoint Protection"
+            android:textColor="#ff5722"
+            android:layout_above="@+id/butscuba"
+            android:layout_alignLeft="@+id/butsymantec"
+            android:layout_alignStart="@+id/butsymantec" />
+
+        <Button
+            android:id="@+id/butscuba"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:text="Scuba Endpoint Protect"
+            android:textColor="#ff5722"
+            android:layout_above="@+id/butsymantec"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/butsymantec"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symantec Endpoint Protection"
+            android:textColor="#ff5722"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

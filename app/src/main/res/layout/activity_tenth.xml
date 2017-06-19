@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buildguide.quizapp.fourthActivity"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/tx8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <TextView
+        android:id="@+id/tx9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_weight="0"
+        android:text="2.which rap group had '50 cent' as a member?"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/stu"
+            android:layout_above="@+id/butwu"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/butwu"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wu tang"
+            android:textColor="#ff5722"
+            android:layout_above="@+id/butgu"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/butgu"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:text="G unit"
+            android:textColor="#ff5722"
+            android:layout_above="@+id/buttaylor"
+            android:layout_alignLeft="@+id/butwu"
+            android:layout_alignStart="@+id/butwu" />
+
+        <Button
+            android:id="@+id/buttaylor"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taylor gang"
+            android:textColor="#ff5722"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

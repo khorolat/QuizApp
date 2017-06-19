@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buildguide.quizapp.thirdActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Technology"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/tx5"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="5.'OS' computer abbreviation usually means ?"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cbr"
+            android:layout_above="@+id/butoperating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/butoperating"
+            android:layout_width="wrap_content"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/butofficial"
+            android:layout_centerHorizontal="true"
+            android:text="Operating System"
+            android:textColor="#ff5722" />
+
+        <Button
+            android:id="@+id/butofficial"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/butoriginal"
+            android:layout_centerHorizontal="true"
+            android:text="Official Security"
+            android:textColor="#ff5722" />
+
+        <Button
+            android:id="@+id/butoriginal"
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/butofficial"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/butofficial"
+            android:text="Original System"
+            android:textColor="#ff5722" />
+
+    </RelativeLayout>
+
+</LinearLayout>

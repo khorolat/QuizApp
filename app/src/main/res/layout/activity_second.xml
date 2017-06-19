@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buildguide.quizapp.SecondActivity"
+    android:background="@drawable/blck"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Category"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/but4"
+            android:layout_alignBottom="@+id/but4"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:text="Technology"
+            android:textColor="#ff5722"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="187dp" />
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/but2"
+            android:layout_alignBottom="@+id/but2"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_toLeftOf="@+id/but2"
+            android:layout_toStartOf="@+id/but2"
+            android:background="#000000"
+            android:text="Music"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="332dp" />
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="#000000"
+            android:text="Travel"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/but2"
+            android:layout_toEndOf="@+id/but2" />
+    </RelativeLayout>
+
+</LinearLayout>

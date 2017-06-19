@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buildguide.quizapp.fourthActivity"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/tx8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <TextView
+        android:id="@+id/tx9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_weight="0"
+        android:text="1.Who is known for being the king of pop?"
+        android:textAlignment="center"
+        android:textColor="#ffc107"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/au"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/butstevie"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/butstevie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stevie Wonder"
+            android:background="#000000"
+            android:textColor="#ff5722"
+            android:layout_above="@+id/butmichael"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/butmichael"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:background="#000000"
+            android:text="Michael Jackson"
+            android:textColor="#ff5722"
+            android:layout_above="@+id/butchris"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/butchris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chris Brown"
+            android:background="#000000"
+            android:textColor="#ff5722"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
